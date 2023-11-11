@@ -4,4 +4,8 @@
     --caf-noir: #533C1Aff;
     --ebony: #4A4E3Dff;
     --reseda-green: #69735Bff;
-  }
+}
+
+body{
+    font-family: 'Montserrat';
+}

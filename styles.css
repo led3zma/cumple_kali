@@ -39,9 +39,10 @@ section{
 
 #kali-logo{
     display: flex;
-    width: 40%;
+    width: 30%;
     align-items: center;
     padding-left: 20px;
+    background-color: var(--caf-noir);
 }
 
 #header-img{
@@ -54,8 +55,16 @@ section{
     font-weight: bold;
 }
 
+#text-logo:hover{
+    text-shadow: 2px 2px 3px yellow;
+}
+
+#header-img:hover{
+    filter: drop-shadow(2px 3px yellow);
+}
+
 #nav-bar{
-    width: 60%;
+    width: 70%;
 }
 
 #welcome-container{
@@ -78,6 +87,11 @@ section{
     margin: 10px 10px;
     padding: 20px 10px;
     font-weight: bold;
+}
+
+.nav-link:hover{
+    background-color: var(--caf-noir);
+    color: white;
 }
 
 .underline{

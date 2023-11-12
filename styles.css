@@ -114,6 +114,16 @@ section{
     margin: 10px;
 }
 
+#footer{
+    display: flex;
+    margin: auto;
+    justify-content: end;
+    background-color: var(--ebony);
+    max-width: 70vw;
+    padding-right: 10px;
+}
+
+
 .nav-link {
     display: inline-block;
     margin: 10px 10px;

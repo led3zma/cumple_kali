@@ -33,6 +33,8 @@ section{
     display: flex;
     background-color: var(--chamoisee);
     position: fixed;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     top: 0;
 }
@@ -41,8 +43,10 @@ section{
     display: flex;
     width: 30%;
     align-items: center;
+    justify-content: center;
     padding-left: 20px;
     background-color: var(--caf-noir);
+    height: auto;
 }
 
 #header-img{
@@ -51,8 +55,11 @@ section{
 }
 
 #text-logo{
+    display: block;
     font-size: 1.75rem;
     font-weight: bold;
+    padding: 0;
+    width: auto;
 }
 
 #text-logo:hover{
@@ -80,6 +87,11 @@ section{
 
 #front-img {
     margin: 10px;
+    width: 90%;
+}
+
+#video{
+    width: 90%;
 }
 
 #contact-title{
@@ -184,6 +196,8 @@ section{
     display: inline;
     margin: 0;
     padding: 10px 5px;
+    height: auto;
+    font-size: 1rem;
 }
 
 .photo-img{
@@ -194,4 +208,70 @@ section{
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+@media (max-width: 880px) {
+    #text-logo{
+        font-size: 1.5rem;
+    }
+    #nav-bar{
+        display: flex;
+        flex: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #nav-bar a{
+        margin: 0 auto;
+        padding: 0;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 800px){
+    .photo{
+        width: 40%;
+    }
+
+    .recommendation-p{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 610px){
+    main{
+        margin-top: 130px;
+    }
+
+    #header{
+        flex-direction: column;
+    }
+
+    #kali-logo{
+        width: 100%;
+    }
+
+    #text-logo{
+        font-size: 1.3rem;
+    }
+
+    #nav-bar a{
+        font-size: 0.9rem;
+    }
+
+    .photo{
+        width: 70%;
+    }
+
+    .recommendation-p{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .recommendation-p i{
+        margin: 5px auto;
+    }
 }

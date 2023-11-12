@@ -82,6 +82,11 @@ section{
     margin: 10px;
 }
 
+#recommendations{
+    display: flex;
+    flex-direction: column;
+}
+
 .nav-link {
     display: inline-block;
     margin: 10px 10px;
@@ -97,4 +102,21 @@ section{
 .underline{
     text-decoration: underline;
     background-color: var(--reseda-green);
+}
+
+.recommendation-p{
+    border: 1px solid var(--reseda-green);
+    width: 60%;
+    height: 60px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    text-align: justify;
+    overflow: auto;
+}
+
+.recommendation-p i{
+    float: left;
+    font-size: 3rem;
+    color: var(--ebony);
+    margin-right: 50px;
 }

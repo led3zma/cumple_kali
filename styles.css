@@ -82,6 +82,38 @@ section{
     margin: 10px;
 }
 
+#contact-title{
+    width: 70%;
+}
+
+#form{
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+#form input[type="email"]{
+    height: 1.5rem;
+    width: 50%;
+}
+
+#form input[type="submit"]{
+    background-color: var(--chamoisee);
+    border: none;
+    cursor: pointer;
+    padding: 10px 5px;
+    width: 20%;
+    font-weight: bold;
+}
+
+#form input[type="submit"]:hover{
+    background-color: var(--caf-noir);
+    color: var(--white);
+}
+
+#form input{
+    margin: 10px;
+}
+
 .nav-link {
     display: inline-block;
     margin: 10px 10px;
